@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "class01-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,6 +14,9 @@
     "next": "13.5.6"
   },
   "devDependencies": {
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3",
     "eslint": "^8",
     "eslint-config-next": "13.5.6"
   }
