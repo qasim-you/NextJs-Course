@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -87,7 +87,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
+            Explore starter templates for Next.js.
           </p>
         </a>
 
