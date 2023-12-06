@@ -8,8 +8,8 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { Input } from "postcss"
+
 
 export function CreateBill() {
   return (
@@ -27,26 +27,21 @@ export function CreateBill() {
         </DialogHeader>
         <div className="grid gap-4 py-4">
           <div className="grid grid-cols-4 items-center gap-4">
-            <Label htmlFor="name" className="text-right">
-              Name
-            </Label>
-            <Input
-              id="name"
-              defaultValue="Pedro Duarte"
-              className="col-span-3"
-              onChange{(e)>{}}
-            />
-          </div>
+           <label htmlFor="" className="text-right">heloo</label>
+           <input className="col-span-3" type="text" value="9" />
+                </div>
+        </div>
+        <div className="grid gap-4 py-4">
           <div className="grid grid-cols-4 items-center gap-4">
-            <Label htmlFor="username" className="text-right">
-              Username
-            </Label>
-            <Input
-              id="username"
-              defaultValue="@peduarte"
-              className="col-span-3"
-            />
-          </div>
+           <label htmlFor="" className="text-right text-xl">heloo</label>
+           <input className="col-span-3" type="text" value="9" />
+                </div>
+        </div>
+        <div className="grid gap-4 py-4">
+          <div className="grid grid-cols-4 items-center gap-4">
+           <label htmlFor="" className="text-right">heloo</label>
+           <input className="col-span-3" type="text" value="9" />
+                </div>
         </div>
         <DialogFooter>
           <Button type="submit">Save changes</Button>
