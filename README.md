@@ -1,3 +1,2 @@
-   NextJs-Course 
-    
+   NextJs-Course with AI integration and authentication 
  
